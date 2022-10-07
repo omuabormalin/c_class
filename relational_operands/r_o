@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+
+
+int main() {
+
+ int a = 4; 
+
+ int b = 3;
+
+ /*if output is 1 it means true*/
+
+ /*if out put is 0 it means false*/
+
+ printf("is a greater than b? %d \n", a > b);
+
+ printf("is a less than b? %d \n", a < b);
+
+ printf("is a equal to b? %d \n", a == b);
+
+ printf("is a not equal to b? %d \n", a != b);
+
+ printf("is a less than or equal to b? %d \n", a <= b);
+
+ printf("is a greater than or equal to b? %d \n", a <= b);
+
+  }
