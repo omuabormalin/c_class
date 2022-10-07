@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+
+
+int main() {
+
+  int x = 10;
+
+  int y;
+
+  y = x++;/* the value of x will be given to y before x is incremented*/
+
+  printf("the value of y is ""%d\n", y);
+
+  printf("this for x ""%d\n", x);
+
+  printf("x * 10 is %d\n", x *= 10);
+
+  printf("%d",y += 5);/*the value of x before it was incremented was added to y and 5 was added to y using shorthand operand arithemetics*/
+
+  }
