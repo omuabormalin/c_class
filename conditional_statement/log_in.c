@@ -6,7 +6,10 @@
  * @B: varioable to accept user password
  * @c: variable holding the user name in the system already
  * @d: variable holding the user password inm the system already
+ * @i: variable for my loop
  */
+// use 1234 as username
+// use 1212 as password
  int login();
  int login()
  {
